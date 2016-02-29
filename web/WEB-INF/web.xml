@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>Ejemplo</display-name>
+    <description>
+      Servlets de ejemplo.
+    </description>
+    <servlet>
+        <servlet-name>EchoRequest</servlet-name>
+        <servlet-class>EchoRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EchoRequest</servlet-name>
+        <url-pattern>/servlet/EchoRequest</url-pattern>
+    </servlet-mapping>
+</web-app>
